@@ -1,6 +1,6 @@
      function searchVideos() {
          const query = document.getElementById('search-query').value;
-         const apiKey = 'YOUR_API_KEY'; // 替换为你的API密钥
+         const apiKey = 'AIzaSyAGatreum51ue7jf4weLEhRvHhBrW-lpq0'; // 替换为你的API密钥
          const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&type=video&key=${apiKey}`;
 
          fetch(searchUrl)
